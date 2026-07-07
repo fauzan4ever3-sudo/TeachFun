@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TeachFun — Ruang Kelas</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <span class="brand-ico"><i class="ti ti-bolt" aria-hidden="true"></i></span>
+        <span class="brand-logo">TeachFun</span>
+        <span class="role-badge role-guru">Guru</span>
+      </div>
+
+      <div class="sidebar-user">
+        <div class="avatar av-guru">BS</div>
+        <div>
+          <div class="user-name">Bu Sari</div>
+          <div class="user-role">Guru Matematika</div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section">Menu utama</div>
+        <a href="dashboard-guru.html" class="nav-item"><i class="ti ti-layout-dashboard" aria-hidden="true"></i>Dashboard</a>
+        <a href="ruang-kelas.html" class="nav-item active"><i class="ti ti-school" aria-hidden="true"></i>Ruang kelas</a>
+
+        <div class="nav-section">Konten</div>
+        <a href="bank-soal.html" class="nav-item"><i class="ti ti-file-text" aria-hidden="true"></i>Bank soal</a>
+        <a href="interactive-game.html" class="nav-item"><i class="ti ti-puzzle" aria-hidden="true"></i>Permainan</a>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="nav-item"><i class="ti ti-settings" aria-hidden="true"></i>Pengaturan</div>
+        <a class="nav-item" href="index.html"><i class="ti ti-logout" aria-hidden="true"></i>Keluar</a>
+      </div>
+    </aside>
+
+    <div class="main-workspace">
+      <header class="topbar">
+        <span class="topbar-title">Ruang Kelas</span>
+        <a class="btn-p btn-success" href="#"><i class="ti ti-user-plus" aria-hidden="true"></i> Undang siswa</a>
+      </header>
+
+      <main class="content-body">
+        <div class="section-header">
+          <h2 class="sec-title">Kelas yang sedang berjalan</h2>
+          <span class="tag tag-green">Aktif</span>
+        </div>
+
+        <div class="content-card">
+          <div class="row-between">
+            <div>
+              <div class="card-headline">XII IPA 1</div>
+              <div class="card-subline">32 siswa · Matematika Wajib</div>
+            </div>
+            <span class="tag tag-pg">Tugas hari ini</span>
+          </div>
+          <div class="progress-bar" style="margin-top: 12px;"><span style="width: 78%"></span></div>
+        </div>
+
+        <div class="content-card">
+          <div class="section-header">
+            <h3 class="card-headline">Agenda minggu ini</h3>
+            <span class="see-all-btn">Lihat semua</span>
+          </div>
+          <div class="dashboard-list">
+            <div class="content-card row-between">
+              <div>
+                <div class="card-headline">Kuis Turunan</div>
+                <div class="card-subline">Senin · 10.00</div>
+              </div>
+              <span class="tag tag-fc">Penting</span>
+            </div>
+            <div class="content-card row-between">
+              <div>
+                <div class="card-headline">Review Flashcard</div>
+                <div class="card-subline">Rabu · 09.30</div>
+              </div>
+              <span class="tag tag-green">Siap</span>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

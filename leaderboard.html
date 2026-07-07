@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TeachFun — Leaderboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <span class="brand-ico"><i class="ti ti-bolt" aria-hidden="true"></i></span>
+        <span class="brand-logo">TeachFun</span>
+        <span class="role-badge role-murid">Murid</span>
+      </div>
+
+      <div class="sidebar-user">
+        <div class="avatar av-murid">AA</div>
+        <div>
+          <div class="user-name">Adi Arifin</div>
+          <div class="user-role">Siswa · XII IPA 1</div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section">Menu utama</div>
+        <a href="dashboard-murid.html" class="nav-item"><i class="ti ti-layout-dashboard" aria-hidden="true"></i>Dashboard</a>
+        <a href="ruang-kelas.html" class="nav-item"><i class="ti ti-school" aria-hidden="true"></i>Kelas Saya</a>
+
+        <div class="nav-section">Aktivitas Belajar</div>
+        <a href="leaderboard.html" class="nav-item active"><i class="ti ti-medal" aria-hidden="true"></i>Leaderboard</a>
+        <a href="kuis.html" class="nav-item"><i class="ti ti-history" aria-hidden="true"></i>Riwayat Kuis</a>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="nav-item"><i class="ti ti-settings" aria-hidden="true"></i>Pengaturan</div>
+        <a class="nav-item" href="index.html"><i class="ti ti-logout" aria-hidden="true"></i>Keluar</a>
+      </div>
+    </aside>
+
+    <div class="main-workspace">
+      <header class="topbar">
+        <span class="topbar-title">Leaderboard</span>
+        <a class="btn-p btn-success" href="kuis.html"><i class="ti ti-player-play" aria-hidden="true"></i> Ikuti kuis</a>
+      </header>
+
+      <main class="content-body">
+        <div class="content-card">
+          <div class="section-header">
+            <h2 class="sec-title">Peringkat kelas minggu ini</h2>
+            <span class="tag tag-green">Live</span>
+          </div>
+          <div class="dashboard-list">
+            <div class="content-card row-between">
+              <div class="row-flex">
+                <div class="avatar av-murid">AA</div>
+                <div>
+                  <div class="card-headline">Adi Arifin</div>
+                  <div class="card-subline">84.5 poin</div>
+                </div>
+              </div>
+              <span class="tag tag-pg">#1</span>
+            </div>
+            <div class="content-card row-between">
+              <div class="row-flex">
+                <div class="avatar av-guru">RS</div>
+                <div>
+                  <div class="card-headline">Rina Sari</div>
+                  <div class="card-subline">81.0 poin</div>
+                </div>
+              </div>
+              <span class="tag tag-fc">#2</span>
+            </div>
+            <div class="content-card row-between">
+              <div class="row-flex">
+                <div class="avatar av-murid">DP</div>
+                <div>
+                  <div class="card-headline">Dimas Putra</div>
+                  <div class="card-subline">79.5 poin</div>
+                </div>
+              </div>
+              <span class="tag tag-important">#3</span>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

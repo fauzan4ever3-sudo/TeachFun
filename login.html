@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TeachFun — Masuk</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a class="nav-logo" href="index.html">
+      <i class="ti ti-bolt" aria-hidden="true"></i> TeachFun
+    </a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">Beranda</a>
+      <a class="btn-ghost active" href="login.html">Masuk</a>
+    </div>
+  </nav>
+
+  <div class="login-wrapper">
+    <div class="login-card">
+      <div class="login-header">
+        <div class="login-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="50px" height="50px">
+      <rect width="800" height="800" fill="#FFFFFF" />
+
+      <g transform="translate(0, 10)">
+        <path d="M 310,240 
+                C 310,223.43 323.43,210 340,210 
+                L 570,210 
+                C 586.57,210 600,223.43 600,241 
+                C 600,258.57 586.57,272 570,272 
+                L 484,272 
+                L 484,332 
+                L 574,332 
+                C 590.57,332 604,345.43 604,363 
+                C 604,380.57 590.57,394 574,394 
+                L 484,394 
+                L 484,510 
+                C 484,526.57 470.57,540 454,540 
+                C 437.43,540 424,526.57 424,510 
+                L 424,272 
+                L 340,272 
+                C 323.43,272 310,258.57 310,240 Z" 
+              fill="#FF8303" />
+
+        <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="94px" letter-spacing="-2px">
+          <text x="190" y="670" fill="#29B6F6">teach</text>
+          <text x="500" y="670" fill="#FF8303">fun</text>
+        </g>
+      </g>
+    </svg></div>
+        <h2>Selamat datang kembali</h2>
+        <p>Silakan pilih simulasi masuk akun di bawah ini</p>
+      </div>
+
+      <form onsubmit="event.preventDefault();">
+        <div class="form-group">
+          <label for="login-email">Alamat Email</label>
+          <div class="input-wrapper">
+            <i class="ti ti-mail input-icon" aria-hidden="true"></i>
+            <input type="email" id="login-email" placeholder="nama@sekolah.sch.id" value="sari@sekolah.sch.id">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="label-row">
+            <label for="login-password">Kata Sandi</label>
+            <a href="#" class="forgot-link">Lupa sandi?</a>
+          </div>
+          <div class="input-wrapper">
+            <i class="ti ti-lock input-icon" aria-hidden="true"></i>
+            <input type="password" id="login-password" placeholder="••••••••" value="password123">
+          </div>
+        </div>
+
+        <a class="btn-primary btn-block btn-icon" href="dashboard-guru.html">
+          <i class="ti ti-arrow-right" aria-hidden="true"></i> Masuk sebagai Guru
+        </a>
+
+        <a class="btn-ghost btn-block btn-icon" href="dashboard-murid.html">
+          <i class="ti ti-arrow-right" aria-hidden="true"></i> Masuk sebagai Murid
+        </a>
+      </form>
+
+      <div class="login-divider">
+        <span>atau masuk dengan</span>
+      </div>
+
+      <a class="btn-oauth-google" href="dashboard-guru.html">
+        <i class="ti ti-brand-google" aria-hidden="true"></i> Masuk dengan Google
+      </a>
+
+      <div class="login-footer">
+        Belum punya akun? <a href="#" class="signup-link">Daftar sekarang gratis</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

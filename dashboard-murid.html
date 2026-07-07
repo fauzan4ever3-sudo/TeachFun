@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TeachFun — Dashboard Murid</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <span class="brand-ico"><i class="ti ti-bolt" aria-hidden="true"></i></span>
+        <span class="brand-logo">TeachFun</span>
+        <span class="role-badge role-murid">Murid</span>
+      </div>
+
+      <div class="sidebar-user">
+        <div class="avatar av-murid">AA</div>
+        <div>
+          <div class="user-name">Adi Arifin</div>
+          <div class="user-role">Siswa · XII IPA 1</div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section">Menu utama</div>
+        <a href="dashboard-murid.html" class="nav-item active"><i class="ti ti-layout-dashboard" aria-hidden="true"></i>Dashboard</a>
+        <a href="ruang-kelas.html" class="nav-item"><i class="ti ti-school" aria-hidden="true"></i>Kelas Saya</a>
+
+        <div class="nav-section">Aktivitas Belajar</div>
+        <a href="leaderboard.html" class="nav-item"><i class="ti ti-medal" aria-hidden="true"></i>Leaderboard</a>
+        <a href="kuis.html" class="nav-item"><i class="ti ti-history" aria-hidden="true"></i>Riwayat Kuis</a>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="nav-item"><i class="ti ti-settings" aria-hidden="true"></i>Pengaturan</div>
+        <a class="nav-item" href="index.html"><i class="ti ti-logout" aria-hidden="true"></i>Keluar</a>
+      </div>
+    </aside>
+
+    <div class="main-workspace">
+      <header class="topbar">
+        <span class="topbar-title">Ruang Belajar Siswa</span>
+        <a class="btn-p btn-success" href="ruang-kelas.html"><i class="ti ti-key" aria-hidden="true"></i> Masuk kelas</a>
+      </header>
+
+      <main class="content-body">
+        <p class="page-note">Halo Adi, yuk selesaikan tugas kuis tepat waktu!</p>
+
+        <div class="stat-grid">
+          <div class="stat-card-box"><div class="stat-val">84.5</div><div class="stat-lbl">Rata-rata skor</div></div>
+          <div class="stat-card-box"><div class="stat-val">12</div><div class="stat-lbl">Kuis selesai</div></div>
+          <div class="stat-card-box"><div class="stat-val">2</div><div class="stat-lbl">Perlu dikerjakan</div></div>
+          <div class="stat-card-box"><div class="stat-val">#5</div><div class="stat-lbl">Peringkat kelas</div></div>
+        </div>
+
+        <h2 class="sec-title">Tugas Kuis Minggu Ini</h2>
+
+        <div class="content-card row-between">
+          <div class="row-flex">
+            <div class="act-icon ai-purple"><i class="ti ti-help-circle" aria-hidden="true"></i></div>
+            <div>
+              <div class="card-headline">Kuis Turunan Fungsi</div>
+              <div class="card-subline">Batas: Hari ini, 23:59 · 10 Soal</div>
+            </div>
+          </div>
+          <span class="tag tag-fc tag-important">Penting</span>
+        </div>
+
+        <div class="content-card row-between">
+          <div class="row-flex">
+            <div class="act-icon ai-teal"><i class="ti ti-cards" aria-hidden="true"></i></div>
+            <div>
+              <div class="card-headline">Latihan Mandiri Integral</div>
+              <div class="card-subline">Batas: 22 Juni · Flashcard</div>
+            </div>
+          </div>
+          <span class="tag tag-green tag-available">Tersedia</span>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

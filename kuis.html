@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TeachFun — Riwayat Kuis</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <span class="brand-ico"><i class="ti ti-bolt" aria-hidden="true"></i></span>
+        <span class="brand-logo">TeachFun</span>
+        <span class="role-badge role-murid">Murid</span>
+      </div>
+
+      <div class="sidebar-user">
+        <div class="avatar av-murid">AA</div>
+        <div>
+          <div class="user-name">Adi Arifin</div>
+          <div class="user-role">Siswa · XII IPA 1</div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section">Menu utama</div>
+        <a href="dashboard-murid.html" class="nav-item"><i class="ti ti-layout-dashboard" aria-hidden="true"></i>Dashboard</a>
+        <a href="ruang-kelas.html" class="nav-item"><i class="ti ti-school" aria-hidden="true"></i>Kelas Saya</a>
+
+        <div class="nav-section">Aktivitas Belajar</div>
+        <a href="leaderboard.html" class="nav-item"><i class="ti ti-medal" aria-hidden="true"></i>Leaderboard</a>
+        <a href="kuis.html" class="nav-item active"><i class="ti ti-history" aria-hidden="true"></i>Riwayat Kuis</a>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="nav-item"><i class="ti ti-settings" aria-hidden="true"></i>Pengaturan</div>
+        <a class="nav-item" href="index.html"><i class="ti ti-logout" aria-hidden="true"></i>Keluar</a>
+      </div>
+    </aside>
+
+    <div class="main-workspace">
+      <header class="topbar">
+        <span class="topbar-title">Riwayat Kuis</span>
+        <a class="btn-p" href="#"><i class="ti ti-plus" aria-hidden="true"></i> Mulai kuis</a>
+      </header>
+
+      <main class="content-body">
+        <div class="content-card">
+          <div class="section-header">
+            <h2 class="sec-title">Aktivitas kuis terakhir</h2>
+            <span class="tag tag-green">Selesai</span>
+          </div>
+          <div class="dashboard-list">
+            <div class="content-card row-between">
+              <div>
+                <div class="card-headline">Kuis Turunan Fungsi</div>
+                <div class="card-subline">Skor 9/10 · 15 menit</div>
+              </div>
+              <span class="tag tag-pg">Lulus</span>
+            </div>
+            <div class="content-card row-between">
+              <div>
+                <div class="card-headline">Flashcard Integral</div>
+                <div class="card-subline">Skor 7/8 · 8 menit</div>
+              </div>
+              <span class="tag tag-fc">Bagus</span>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
